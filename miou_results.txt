@@ -1,0 +1,68 @@
+
+
+No Averageing:
+==================== TRAIN SET ====================
+==================================================TRAIN RESULTS==================================================
+Overall mIoU: 0.8289
+Classes found: [np.uint8(0), np.uint8(255)]Number of classes: 2
+Images processed: 6742
+Train per-class mean IoU:  
+Class 0: 0.9411  
+Class 255: 0.7166
+==================== VALIDATION SET ====================
+==================================================VALIDATION RESULTS==================================================
+Overall mIoU: 0.8284
+Classes found: [np.uint8(0), np.uint8(255)]
+Number of classes: 2
+Images processed: 843
+Validation per-class mean IoU:  
+Class 0: 0.9416  
+Class 255: 0.7152
+
+
+
+Postproccesing Averageing:
+
+==================== TRAIN SET ====================
+==================================================TRAIN RESULTS==================================================
+Overall mIoU: 0.8356
+Classes found: [np.uint8(0), np.uint8(255)]
+Number of classes: 2
+Images processed: 6742
+Train per-class mean IoU: Class 0: 0.9435  Class 255: 0.7276
+==================== VALIDATION SET ====================
+==================================================VALIDATION RESULTS==================================================
+Overall mIoU: 0.8346
+Classes found: [np.uint8(0), np.uint8(255)]
+Number of classes: 2
+Images processed: 843
+Validation per-class mean IoU:  Class 0: 0.9438  Class 255: 0.7254
+
+
+Loss Averageing With Diagnaol Weighting -> Half way through:
+==================== TRAIN SET ====================
+==================================================TRAIN RESULTS==================================================
+Overall mIoU: 0.8951
+Classes found: [np.uint8(0), np.uint8(255)]
+Number of classes: 2
+Images processed: 6742
+Train per-class mean IoU:  Class 0: 0.9628  Class 255: 0.8275
+==================== VALIDATION SET ====================
+==================================================VALIDATION RESULTS==================================================
+Overall mIoU: 0.8872
+Classes found: [np.uint8(0), np.uint8(255)]
+Number of classes: 2
+Images processed: 843
+Validation per-class mean IoU:  Class 0: 0.9607  Class 255: 0.8137
+
+Loss Averging, Hard Edge Weght:
+
+
+==================== TRAIN SET ====================
+==================================================TRAIN RESULTS==================================================
+Overall mIoU: 0.8852Classes found: [np.uint8(0), np.uint8(255)]Number of classes: 2Images processed: 6742
+Train per-class mean IoU:  Class 0: 0.9600  Class 255: 0.8103
+==================== VALIDATION SET ====================
+==================================================VALIDATION RESULTS==================================================
+Overall mIoU: 0.8790Classes found: [np.uint8(0), np.uint8(255)]Number of classes: 2Images processed: 843
+Validation per-class mean IoU:  Class 0: 0.9584  Class 255: 0.7995
